@@ -9,7 +9,7 @@ namespace Data
 
     public class Database : IDatabase
     {
-        protected ISession _session { get; set; }
+        private ISession _session { get; set; }
 
         public Database(ISession session)
         {

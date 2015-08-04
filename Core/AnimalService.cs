@@ -11,6 +11,7 @@ namespace Core
     {
         IEnumerable<Animal> GetAllAnimals();
         IEnumerable<Animal> GetAnimalsByCommonName(CommonName commonName);
+        void Save(Animal animal);
     }
 
     public class AnimalService : IAnimalService
